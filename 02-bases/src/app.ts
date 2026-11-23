@@ -1,0 +1,28 @@
+// const {getAge, getUUID} = require("./plugins");
+// const { emailTemplate } = require("./js-foundation/01-template");
+// require("./js-foundation/02-destructuring");
+// const { getUserById } = require("./js-foundation/03-callbacks");
+// const { getUserById } = require("./js-foundation/04-arrow");
+// const { buildMakePerson } = require("./js-foundation/05-factory.js");
+// const makePerson = buildMakePerson({ getUUID, getAge });
+
+// import { getPokemonById } from "./js-foundation/06-promises";
+// import { buildLogger } from "./plugins/logger.plugin";
+
+// const obj = { name: "John", birthdate: "1995-10-19"}
+// const john = makePerson(obj);
+
+// console.log({john});
+
+// getPokemonById(4).then();
+
+// const getPokemonById = require("./js-foundation/06-promises");
+
+// const logger = buildLogger("app.js");
+// logger.log("Hola Mundo");
+// logger.error("Esto es algo malo");
+
+// getPokemonById(4)
+//     .then((pokemon) => console.log({pokemon}))
+//     .catch((err) => console.log("Intente de nuevo"))
+//     .finally(() => console.log("Finalmente"));
