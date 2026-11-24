@@ -16,6 +16,7 @@ export class SaveFile implements SaveFileUseCase{
     ){ }
 
     execute({fileContent, destination = "outputs", fileName = "table"}: options): boolean {
+        console.log(destination, fileName, fileContent);
         try{
             fs.mkdirSync(destination, { recursive: true });
             fs.writeFileSync(`${destination}/${fileName}.txt`, fileContent);
