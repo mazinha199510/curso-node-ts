@@ -22,7 +22,7 @@ export class SaveFile implements SaveFileUseCase{
             // fs.appendFileSync(`${destination}/${fileName}.txt`, mensajeSalida);
             return true;
         } catch (error) {
-            console.error("Error saving file:", error);
+            // console.error("Error saving file:", error);
             return false;
         }
     }
