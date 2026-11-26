@@ -44,7 +44,6 @@ describe("saveFile", () => {
     test("should save file with custom values", () => {        
         
         const res = saveFile.execute(customOptions);
-        console.log(res);
         expect(res).toBe(true);
 
         const checkFile = fs.existsSync(path);
